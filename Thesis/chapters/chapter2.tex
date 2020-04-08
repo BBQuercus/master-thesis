@@ -20,7 +20,8 @@
     Hela 11ht &Weidenfeld et al., 2009 \cite{weidenfeld_inducible_2009} &N/A \\\midrule
     Hela 11ht + scAB-GFP + Renilla-MS2 &This study &N/A \\\midrule
     Hela 11ht + scAB-GFP + smGCN4-Renilla-MS2 &This study &N/A \\\midrule
-    Hela 11ht + scAB-GFP + SunTag-Renilla-MS2 &This study &N/A \\
+    Hela 11ht + scAB-GFP + SunTag-Renilla-MS2 &This study &N/A \\\midrule
+    Hela 11ht + TREAT &This study &N/A \\
 \end{tabularx}
 
 % Chemicals n peptides
@@ -63,6 +64,7 @@
 \begin{tabularx}{\linewidth}{p{0.35\linewidth} p{0.35\linewidth} p{0.2\linewidth}}
     \regtable{Recombinant DNA}
 
+    G3BP1-GFP-GFP &Wilbertz et al., 2019 \cite{wilbertz_single-molecule_2019} &Addgene \#119950 \\\midrule
     NLS-stdMCP-stdHalo &Voigt et al., 2017 \cite{voigt_single-molecule_2017} &Addgene \#104999 \\\midrule
     NLS-stdMCP-stdHalo-G3BP1 &This Study &N/A \\\midrule
     NLS-stdMCP-stdHalo-Rh1 &This Study &N/A \\\midrule
@@ -70,7 +72,7 @@
     Renilla-MS2v5 &This Study &N/A \\\midrule
     scAB-GFP &Voigt et al., 2017 \cite{voigt_single-molecule_2017} &Addgene \#104998 \\\midrule
     smGCN4-Renilla-MS2v5 &This study &N/A \\\midrule
-    SunTag-Renilla-MS2v5 &Wilbertz et al., 2019 \cite{wilbertz_single-molecule_2018} &Addgene \#119945 \\\midrule
+    SunTag-Renilla-MS2v5 &Wilbertz et al., 2019 \cite{wilbertz_single-molecule_2019} &Addgene \#119945 \\\midrule
     SunTag-Renilla-PP7-MS2v4 &Horvathova et al., 2017 \cite{horvathova_dynamics_2017} &N/A \\
 \end{tabularx}
 
@@ -118,33 +120,25 @@ The integrated Flp-RMCE (recombinase-mediated cassette exchange) site allows for
 In addition, to induce inserted target genes reversibly with doxycycline, cells are expressing a reverse tetracycline controlled transactivator (rtTA2S-M2).
 Dulbecco’s Modified Eagle Medium (DMEM) containing 4.5 g/l glucose, 100 U/ml Penicillin, 100 \textmu g/ml Streptomycin, 4 mM L-Glutamine, and 10\% v/v Fetal Bovine Serum (FBS) was used to culture HeLa cells.
 Cells were maintained at 37ºC with 5\% CO\textsubscript{2}.
-Transient transfections were performed with Lipofectamine 2000 transfection reagent
-    (Invitrogen) with Opti-MEM reduced serum medium (Gibco) according to manufacturer’s
-    instructions but scaled down to 0.5 \textmu g plasmid DNA and 2 \textmu l Lipofectamine
-    2000 per 1 ml growth medium.
+Transient transfections were performed with Lipofectamine 2000 transfection reagent (Invitrogen) with Opti-MEM reduced serum medium (Gibco) according to manufacturer’s instructions but scaled down to 0.5 \textmu g plasmid DNA and 2 \textmu l Lipofectamine 2000 per 1 ml growth medium.
 \\
 
 \textbf{Plasmid construction} \\
 To generate the G3BP1 coat protein fusion, the genomic sequence encoding the full-length G3BP1 Isoform 1 (Q13283-1) was inserted in-frame, downstream of the HaloTag sequence.
 A 33 nt linker sequence was kept between HaloTag and G3BP1 to ensure steric movement.
 Assembly was performed by PCR amplification of G3BP1 and the MCP-Halo-linker backbone, followed by Gibson cloning \cite{gibson_enzymatic_2009}.
-The resulting construct contains a constitutive UbiC promoter, SV40 NLS (nuclear localization
-    signal), stdMCP (MS2 coat protein), HaloTag, 33 nt linker sequence, G3BP1 with a stop codon,
-    and a  Woodchuck Hepatitis Virus Posttranscriptional Regulatory Element (WPRE) improving
-    expression in lentiviral transfection (Figure \ref{fig:plasmid_1}).
+The resulting construct contains a constitutive UbiC promoter, SV40 NLS (nuclear localization signal), stdMCP (MS2 coat protein), HaloTag, 33 nt linker sequence, G3BP1 with a stop codon, and a  Woodchuck Hepatitis Virus Posttranscriptional Regulatory Element (WPRE) improving expression in lentiviral transfection (Figure \ref{fig:plasmid_1}).
 
-The GCN4 epitope containing the sequence for the smGCN4 reporter was synthesized into a pUC57-Kan expression vector.
+The smGCN4 reporter sequence containing GCN4 epitopes was synthesized into a pUC57-Kan expression vector.
 Assembly was performed by PCR amplification of smGCN4 and the \textit{Renilla}-MS2v5 backbone followed by Gibson cloning.
-The resulting plasmid contains a Tet-CMV (cytomegalovirus) promoter followed by smGCN4,
-    \textit{Renilla} luciferase, FKBP domain with a stop codon, MS2v5 stem-loop cassette (24x),
-    CTE (constitutive transport element, and SV40 polyA tail (Figure \ref{fig:plasmid_2}).
+The resulting plasmid contains a Tet-CMV (cytomegalovirus) promoter followed by smGCN4, \textit{Renilla} luciferase, FKBP domain with a stop codon, MS2v5 stem-loop cassette (24x), CTE (constitutive transport element, and SV40 polyA tail (Figure \ref{fig:plasmid_2}).
 \\
 
 \textbf{Reporter cell line generation} \\
 A day before selection, HeLa cells were seeded into a 6-well plate.
 The targeting plasmid containing the reporter (2 \textmu g) and pCAGGS-FLPe-IRESpuro plasmid (2 \textmu g) were transfected using Lipofectamine 2000 (Invitrogen) according to manufacturers’ protocol \cite{beard_efficient_2006}.
-On the next day, cells were preselected with 5 \textmu l/ml puromycin (Invivogen). Two days later, puromycin was removed and replaced with fresh growth medium containing 50 \textmu M ganciclovir (Sigma-Aldrich).
-The negative selection was performed for 10-14 days to get resistant colonies that had undergone RCME.
+On the next day, cells were preselected with 5 \textmu l/ml puromycin (Invivogen). Two days later, the puromycin-containing medium was removed and replaced with fresh growth medium containing 50 \textmu M ganciclovir (Sigma-Aldrich).
+The selection was performed for 10-14 days to get resistant colonies that had undergone RCME.
 Single-cell sorting into a 96-well plate was performed.
 Clones were tested for reporter expression using luciferase assays.
 \\
@@ -162,7 +156,7 @@ To ensure full cellular lysis, plates were gently shaken for 15 minutes at room 
 30 \textmu l lysate was transferred to 96-well EIA/RIA Plate (Costar) in triplicates.
 Bioluminescence was measured 2 seconds after injecting 12 \textmu l \textit{Renilla} Luciferase Assay Reagent per well.
 Measurements were performed on the Mithras Multimode Microplate Reader LB 940 (Berthold).
-Data was normalized by protein concentration measured by standard Bradford Protein Assay.
+Data were normalized by protein concentration measured by standard Bradford Protein Assay.
 Means of at least 3 biological replicates (each with 3 described technical replicates) were calculated.
 \\
 
@@ -177,7 +171,7 @@ Cells were washed thrice with PBS and permeabilized with 0.5\% Triton X-100 dilu
 Cells were washed two more times with PBS and prehybridized with wash buffer (2x SSC (Invitrogen), 10\% v/v formamide (Abcam)) twice for 5 minutes.
 Coverslips were then incubated between 4 and 16 hours with hybridization solution (2x SSC, 10\% v/v formamide, 10\% v/v dextran sulfate, 0.5\% v/v BSA, 200 nM FISH probes) at 37ºC in humidified chambers.
 Cells were washed once more with wash buffer for 30 minutes and twice with PBS.
-Immunofluorescence staining was performed according to the “Immunofluorescence section from BSA blocking to mounting”.
+Immunofluorescence staining was performed according to the "Immunofluorescence" section from BSA blocking to mounting.
 Samples were then mounted on ProLong Gold Antifade Mountant with DAPI.
 Imaging was performed as described in the “Live-cell imaging” section using sequential, single-camera acquisition.
 \\
@@ -214,11 +208,11 @@ Cells were maintained at 37ºC and 5\% CO\textsubscript{2} within an incubation 
 \section{Quantification and Statistical Analysis}
 
 \textbf{Detection of mRNA spots from smFISH and colocalization} \\
-Images were registered and maximum intensity projected in all channels.
+Using custom-built python scripts, images were registered and maximum intensity projected in all channels.
 Cells were segmented in two steps.
-First, a sequential workflow comprising Gaussian filtering steps, Otsu thresholding \cite{otsu_threshold_1979} and distance transform calculations of the DAPI channel (405 nm) were used to segment individual nuclei.
+First, a sequential workflow comprising Gaussian filtering steps, Otsu thresholding \cite{otsu_threshold_1979}, and distance transform calculations of the DAPI channel (405 nm) was used to segment individual nuclei.
 Subsequently, the nuclei were used as seeds to perform a watershed segmentation into a previously thresholded cytoplasmic map.
-Cytoplasmic channels were chosen based on their signal uniformity.
+Cytoplasmic channels were chosen based on their signal uniformity (561 nm \textit{Renilla} or MS2v5 probe channel).
 SGs were segmented in Fluffy \cite{eichenberger_fluffy_2020}.
 mRNA spots were detected with a Laplacian of Gaussian.
 Thresholds for cellular segmentation and spot detection were kept constant throughout a dataset.
@@ -226,7 +220,7 @@ To colocalize mRNA spots, Euclidean distances were calculated between spots acro
 To ensure proper channel-to-channel association of mRNA spots, cells with a high spot density were filtered out.
 Cellular outliers with significantly higher or lower nuclear areas, cytoplasmic areas or absolute spot numbers were removed.
 Two mRNAs were considered as colocalized when their coordinates are less than 2 px (240 nm) apart.
-In TREAT experiments, all mRNAs in the reference channel are assumed to be intact whereas mRNA counts can vary in the measurement channel.
+For TREAT experiments, each spot in the measurement channel should be paired to a spot in the reference channel.
 Therefore, cells with low measurement-to-reference pairing were excluded from the analysis.
 \\
 

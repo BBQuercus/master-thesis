@@ -10,19 +10,19 @@ Paul Anderson and Nancy Kedersha.
 \newblock {RNA} granules.
 \newblock {\em The Journal of Cell Biology}, 172(6):803--808, March 2006.
 
-\bibitem{thomas_rna_2011}
-María~Gabriela Thomas, Mariela Loschi, María~Andrea Desbats, and
-  Graciela~Lidia Boccaccio.
-\newblock {RNA} granules: the good, the bad and the ugly.
-\newblock {\em Cellular signalling}, 23(2):324--334, February 2011.
+\bibitem{pakoszebrucka_integrated_2016}
+Karolina Pakos‐Zebrucka, Izabela Koryga, Katarzyna Mnich, Mila Ljujic, Afshin
+  Samali, and Adrienne~M. Gorman.
+\newblock The integrated stress response.
+\newblock {\em EMBO reports}, 17(10):1374--1395, October 2016.
 
-\bibitem{mateju_single-molecule_2020}
-Daniel Mateju, Bastian Eichenberger, Jan Eglinger, Gregory Roth, and Jeffrey
-  Chao.
-\newblock Single-molecule imaging reveals translation of {mRNAs} localized to
-  stress granules.
-\newblock {\em bioRxiv}, page 2020.03.31.018093, April 2020.
-\newblock Publisher: Cold Spring Harbor Laboratory Section: New Results.
+\bibitem{kimball_mammalian_2003}
+Scot~R. Kimball, Rick~L. Horetsky, David Ron, Leonard~S. Jefferson, and
+  Heather~P. Harding.
+\newblock Mammalian stress granules represent sites of accumulation of stalled
+  translation initiation complexes.
+\newblock {\em American Journal of Physiology. Cell Physiology},
+  284(2):C273--284, February 2003.
 
 \bibitem{kedersha_rna-binding_1999}
 Nancy~L. Kedersha, Mita Gupta, Wei Li, Ira Miller, and Paul Anderson.
@@ -38,6 +38,53 @@ Helene Tourrière, Karim Chebli, Latifa Zekri, Brice Courselaud, Jean~Marie
   granules.
 \newblock {\em The Journal of Cell Biology}, 160(6):823--831, March 2003.
 
+\bibitem{gilks_stress_2004}
+Natalie Gilks, Nancy Kedersha, Maranatha Ayodele, Lily Shen, Georg Stoecklin,
+  Laura~M. Dember, and Paul Anderson.
+\newblock Stress granule assembly is mediated by prion-like aggregation of
+  {TIA}-1.
+\newblock {\em Molecular Biology of the Cell}, 15(12):5383--5398, December
+  2004.
+
+\bibitem{shattuck_prion-like_2019}
+Jenifer~E. Shattuck, Kacy~R. Paul, Sean~M. Cascarina, and Eric~D. Ross.
+\newblock The prion-like protein kinase {Sky1} is required for efficient stress
+  granule disassembly.
+\newblock {\em Nature Communications}, 10(1):1--11, August 2019.
+\newblock Number: 1 Publisher: Nature Publishing Group.
+
+\bibitem{buchan_p_2008}
+J.~Ross Buchan, Denise Muhlrad, and Roy Parker.
+\newblock P bodies promote stress granule assembly in {Saccharomyces}
+  cerevisiae.
+\newblock {\em The Journal of Cell Biology}, 183(3):441--455, November 2008.
+
+\bibitem{ivanov_disruption_2003}
+Pavel~A Ivanov, Elena~M Chudinova, and Elena~S Nadezhdina.
+\newblock Disruption of microtubules inhibits cytoplasmic ribonucleoprotein
+  stress granule formation.
+\newblock {\em Experimental Cell Research}, 290(2):227--233, November 2003.
+
+\bibitem{buchan_eukaryotic_2009}
+J.~Ross Buchan and Roy Parker.
+\newblock Eukaryotic {Stress} {Granules}: {The} {Ins} and {Outs} of
+  {Translation}.
+\newblock {\em Molecular Cell}, 36(6):932--941, December 2009.
+
+\bibitem{thomas_rna_2011}
+María~Gabriela Thomas, Mariela Loschi, María~Andrea Desbats, and
+  Graciela~Lidia Boccaccio.
+\newblock {RNA} granules: the good, the bad and the ugly.
+\newblock {\em Cellular signalling}, 23(2):324--334, February 2011.
+
+\bibitem{mateju_single-molecule_2020}
+Daniel Mateju, Bastian Eichenberger, Jan Eglinger, Gregory Roth, and Jeffrey
+  Chao.
+\newblock Single-molecule imaging reveals translation of {mRNAs} localized to
+  stress granules.
+\newblock {\em bioRxiv}, page 2020.03.31.018093, April 2020.
+\newblock Publisher: Cold Spring Harbor Laboratory Section: New Results.
+
 \bibitem{bashkirov_mouse_1997}
 Vladimir~I. Bashkirov, Harry Scherthan, Jachen~A. Solinger, Jean-Marie
   Buerstedde, and Wolf-Dietrich Heyer.
@@ -51,12 +98,56 @@ Roy Parker and Ujwal Sheth.
 \newblock P bodies and the control of {mRNA} translation and degradation.
 \newblock {\em Molecular Cell}, 25(5):635--646, March 2007.
 
+\bibitem{sheth_decapping_2003}
+Ujwal Sheth and Roy Parker.
+\newblock Decapping and {Decay} of {Messenger} {RNA} {Occur} in {Cytoplasmic}
+  {Processing} {Bodies}.
+\newblock {\em Science (New York, N.Y.)}, 300(5620):805--808, May 2003.
+
 \bibitem{tanenbaum_protein-tagging_2014}
 Marvin E. Tanenbaum, Luke A. Gilbert, Lei S. Qi, Jonathan S. Weissman, and
   Ronald D. Vale.
 \newblock A {Protein}-{Tagging} {System} for {Signal} {Amplification} in {Gene}
   {Expression} and {Fluorescence} {Imaging}.
 \newblock {\em Cell}, 159(3):635--646, October 2014.
+
+\bibitem{george_intracellular_2018}
+Logan George, Fred~E. Indig, Kotb Abdelmohsen, and Myriam Gorospe.
+\newblock Intracellular {RNA}-tracking methods.
+\newblock {\em Open Biology}, 8(10), October 2018.
+
+\bibitem{genz_association_2013}
+Christian Genz, Julia Fundakowski, Orit Hermesh, Maria Schmid, and Ralf-Peter
+  Jansen.
+\newblock Association of the {Yeast} {RNA}-binding {Protein} {She2p} with the
+  {Tubular} {Endoplasmic} {Reticulum} {Depends} on {Membrane} {Curvature}.
+\newblock {\em The Journal of Biological Chemistry}, 288(45):32384--32393,
+  November 2013.
+
+\bibitem{bos_tethered_2016}
+Tomas~J. Bos, Julia~K. Nussbacher, Stefan Aigner, and Gene~W. Yeo.
+\newblock Tethered {Function} {Assays} as {Tools} to {Elucidate} the
+  {Molecular} {Roles} of {RNA}-{Binding} {Proteins}.
+\newblock {\em Advances in experimental medicine and biology}, 907:61--88,
+  2016.
+
+\bibitem{kim_optogenetic_2020}
+Na~Yeon Kim, Sangkyu Lee, Jeonghye Yu, Nury Kim, Seong~Su Won, Hyerim Park, and
+  Won~Do Heo.
+\newblock Optogenetic control of {mRNA} localization and translation in live
+  cells.
+\newblock {\em Nature Cell Biology}, 22(3):341--352, March 2020.
+\newblock Number: 3 Publisher: Nature Publishing Group.
+
+\bibitem{azevedo_systematic_2012}
+Mauro Ferreira~de Azevedo, Paul~R. Gilson, Heloisa~B. Gabriel, Roseli~F.
+  Simões, Fiona Angrisano, Jacob Baum, Brendan~S. Crabb, and Gerhard
+  Wunderlich.
+\newblock Systematic {Analysis} of {FKBP} {Inducible} {Degradation} {Domain}
+  {Tagging} {Strategies} for the {Human} {Malaria} {Parasite} {Plasmodium}
+  falciparum.
+\newblock {\em PLOS ONE}, 7(7):e40981, July 2012.
+\newblock Publisher: Public Library of Science.
 
 \bibitem{weidenfeld_inducible_2009}
 Ina Weidenfeld, Manfred Gossen, Rainer Löw, David Kentner, Stefan Berger, Dirk
@@ -82,6 +173,13 @@ Jonathan~B. Grimm, Anand~K. Muthusamy, Yajie Liang, Timothy~A. Brown,
   imaging.
 \newblock {\em Nature Methods}, 14(10):987--994, October 2017.
 
+\bibitem{wilbertz_single-molecule_2019}
+Johannes~H. Wilbertz, Franka Voigt, Ivana Horvathova, Gregory Roth, Yinxiu
+  Zhan, and Jeffrey~A. Chao.
+\newblock Single-{Molecule} {Imaging} of {mRNA} {Localization} and {Regulation}
+  during the {Integrated} {Stress} {Response}.
+\newblock {\em Molecular Cell}, 73(5):946--958.e7, 2019.
+
 \bibitem{voigt_single-molecule_2017}
 Franka Voigt, Hui Zhang, Xianying~A. Cui, Désirée Triebold, Ai~Xin Liu, Jan
   Eglinger, Eliza~S. Lee, Jeffrey~A. Chao, and Alexander~F. Palazzo.
@@ -95,13 +193,6 @@ Caroline Beard, Konrad Hochedlinger, Kathrin Plath, Anton Wutz, and Rudolf
 \newblock Efficient method to generate single-copy transgenic mice by
   site-specific integration in embryonic stem cells.
 \newblock {\em Genesis (New York, N.Y.: 2000)}, 44(1):23--28, January 2006.
-
-\bibitem{wilbertz_single-molecule_2018}
-Johannes~H. Wilbertz, Franka Voigt, Ivana Horvathova, Gregory Roth, Yinxiu
-  Zhan, and Jeffrey~Alan Chao.
-\newblock Single-molecule imaging of {mRNA} localization and regulation during
-  the integrated stress response.
-\newblock {\em bioRxiv}, page 332502, May 2018.
 
 \bibitem{horvathova_dynamics_2017}
 Ivana Horvathova, Franka Voigt, Anna~V. Kotrys, Yinxiu Zhan, Caroline~G.
@@ -170,6 +261,15 @@ Nancy Kedersha, Marc~D. Panas, Christopher~A. Achorn, Shawn Lyons, Sarah
   condensation and associate with {40S} subunits.
 \newblock {\em The Journal of Cell Biology}, 212(7):845--860, March 2016.
 
+\bibitem{markmiller_context-dependent_2018}
+Sebastian Markmiller, Sahar Soltanieh, Kari~L. Server, Raymond Mak, Wenhao Jin,
+  Mark~Y. Fang, En-Ching Luo, Florian Krach, Dejun Yang, Anindya Sen, Amit
+  Fulzele, Jacob~M. Wozniak, David~J. Gonzalez, Mark~W. Kankel, Fen-Biao Gao,
+  Eric~J. Bennett, Eric Lécuyer, and Gene~W. Yeo.
+\newblock Context-{Dependent} and {Disease}-{Specific} {Diversity} in {Protein}
+  {Interactions} within {Stress} {Granules}.
+\newblock {\em Cell}, 172(3):590--604.e13, January 2018.
+
 \bibitem{alam_rasputin_2019}
 Umber Alam and Derek Kennedy.
 \newblock Rasputin a decade on and more promiscuous than ever? {A} review of
@@ -195,6 +295,12 @@ Jeffrey~S. Kieft, Jennifer~L. Rabe, and Erich~G. Chapman.
   {Xrn1}-resistant {RNA}: {Conservation}, folding, and host adaptation.
 \newblock {\em RNA biology}, 12(11):1169--1177, 2015.
 
+\bibitem{gurry_order_2015}
+Thomas Gurry.
+\newblock {\em Order, disorder, and protein aggregation}.
+\newblock Thesis, Massachusetts Institute of Technology, 2015.
+\newblock Accepted: 2015-06-10T19:12:13Z.
+
 \bibitem{zhao_genetically_2019}
 Ning Zhao, Kouta Kamijo, Philip~D. Fox, Haruka Oda, Tatsuya Morisaki, Yuko
   Sato, Hiroshi Kimura, and Timothy~J. Stasevich.
@@ -202,6 +308,12 @@ Ning Zhao, Kouta Kamijo, Philip~D. Fox, Haruka Oda, Tatsuya Morisaki, Yuko
   {HA}-tagged proteins in vivo.
 \newblock {\em Nature Communications}, 10(1):1--16, July 2019.
 \newblock Number: 1 Publisher: Nature Publishing Group.
+
+\bibitem{bonger_small_2011}
+Kimberly~M. Bonger, Ling-chun Chen, Corey~W. Liu, and Thomas~J. Wandless.
+\newblock Small molecule displacement of a cryptic degron causes conditional
+  protein degradation.
+\newblock {\em Nature chemical biology}, 7(8):531--537, July 2011.
 
 \bibitem{yang_molecular_1996}
 F.~Yang, L.~G. Moss, and G.~N. Phillips.
