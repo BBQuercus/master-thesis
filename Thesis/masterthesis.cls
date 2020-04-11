@@ -210,7 +210,7 @@
             \setlength{\parskip}{0pt}
             
             \begin{flushright}
-                \includegraphics[height=2cm]{images/fmi_logo}
+                \includegraphics[height=2cm]{images/fmi_logo.jpg}
             \end{flushright}
             
             \vspace*{15mm}

@@ -5,6 +5,11 @@ Melissa~J. Moore.
 \newblock From birth to death: the complex lives of eukaryotic {mRNAs}.
 \newblock {\em Science (New York, N.Y.)}, 309(5740):1514--1518, September 2005.
 
+\bibitem{swinburne_intron_2008}
+Ian~A. Swinburne and Pamela~A. Silver.
+\newblock Intron {Delays} and {Transcriptional} {Timing} during {Development}.
+\newblock {\em Developmental cell}, 14(3):324--330, March 2008.
+
 \bibitem{anderson_rna_2006}
 Paul Anderson and Nancy Kedersha.
 \newblock {RNA} granules.
@@ -252,6 +257,12 @@ P.~Thévenaz, U.~E. Ruttimann, and M.~Unser.
 \newblock A pyramid approach to subpixel registration based on intensity.
 \newblock {\em IEEE transactions on image processing: a publication of the IEEE
   Signal Processing Society}, 7(1):27--41, 1998.
+
+\bibitem{costa_human_1999}
+M.~Costa, A.~Ochem, A.~Staub, and A.~Falaschi.
+\newblock Human {DNA} helicase {VIII}: a {DNA} and {RNA} helicase corresponding
+  to the {G3BP} protein, an element of the ras transduction pathway.
+\newblock {\em Nucleic Acids Research}, 27(3):817--821, February 1999.
 
 \bibitem{kedersha_g3bp-caprin1-usp10_2016}
 Nancy Kedersha, Marc~D. Panas, Christopher~A. Achorn, Shawn Lyons, Sarah
