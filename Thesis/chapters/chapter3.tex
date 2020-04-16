@@ -4,20 +4,18 @@
 \section{G3BP1 tethering affects mRNA dynamics}
 
 Proteins of the G3BP RNA-binding family are key components of SGs.
-One member of this family, G3BP1, encodes an ATP- and magnesium-dependent helicase that can unwind partial DNA and RNA duplexes \cite{costa_human_1999}.
-Through SH3 domain association, it can bind to the Ras-GTPase-activating protein.
 In mammals, G3BP1 (and its paralog G3BP2) were reported to be essential in nucleating the formation of SGs \cite{kedersha_g3bp-caprin1-usp10_2016}.
 SGs can not only be induced by stress (e.g. sodium arsenite) but also by the overexpression of G3BPs \cite{tourriere_rasgap-associated_2003}.
-In addition, a recent imaging-based study Markmiller et al. \cite{markmiller_context-dependent_2018} showed that "many well-characterized SG proteins (e.g., G3BP1, TIA1, CAPRIN1, PABPC1, FMR1, and ATXN2) were identified as highly significant interactors" proving an interplay of SG proteins even in unstressed conditions.
+In addition, a recent imaging-based study by Markmiller et al. \cite{markmiller_context-dependent_2018} showed that "many well-characterized SG proteins (e.g., G3BP1, TIA1, CAPRIN1, PABPC1, FMR1, and ATXN2) were identified as highly significant interactors" suggesting an interplay of SG proteins even in unstressed conditions.
 This finding might suggest the formation of an mRNP complex containing SG proteins allowing for a rapid assembly of SGs.
 
 The exact role of G3BPs in SG assembly as well as in unstressed cells is still largely unknown.
 As reviewed in Alam and Kenedy \cite{alam_rasputin_2019} various functions have been attributed to this protein family.
 These range from transcript destabilization and repression to the polar opposite in transcript stabilization.
-Furthermore, G3BP's also showed effects on transcript localization and sequestration to virus-induced foci.
+Furthermore, G3BP's also showed effects on transcript localization and sequestration to virus-induced foci (reviewed in \cite{zhang_chronic_2019}).
 The only consensus is G3BP's involvement in mRNA translational control.
 The subsequent experiments attempt to clarify this disunity by analyzing G3BP1's effect on mRNA transcripts at a single-molecule level.
-For this reason, I designed an assay to tether G3BP1 and reporter mRNAs together and thereby promoting mRNA accumulation in SGs.
+For this reason, I designed an assay to directly tether G3BP1 to reporter mRNAs and thereby  allow its effect on translation and mRNA degradation to be measures as well as to promote mRNA accumulation into SGs.
 
 \begin{figure}[b!]
     \centering
@@ -35,8 +33,8 @@ For this reason, I designed an assay to tether G3BP1 and reporter mRNAs together
     \label{fig:mcp_images}
 \end{figure}
 
-This study focussed on one reporter RNA containing a SunTag cassette, the gene encoding for \textit{Renilla} luciferase, a proteotuner tag, and MS2 stem-loops (Figure \ref{fig:mcp_images}A).
-In an attempt to promote mRNA recruitment to SGs, I fused G3BP1 MCP-Halo (abbreviated as MCPG3).
+This study focussed on a reporter RNA containing a SunTag cassette, the gene encoding for \textit{Renilla} luciferase, a proteotuner tag, and MS2 stem-loops (Figure \ref{fig:mcp_images}A).
+In order to promote mRNA recruitment to SGs, I fused G3BP1 MCP-Halo (abbreviated as MCPG3).
 The construct was validated by FISH against the reporter RNA followed by immunofluorescence for the endogenous SG marker TIA-1 \cite{kedersha_rna-binding_1999} (Figure \ref{fig:mcp_images}B).
 SGs were induced by sodium arsenite treatment (1 mM/ml for 1 hour).
 As a control, an identical construct only lacking G3BP1 fusion was used.
@@ -47,7 +45,7 @@ Taken together, fusing G3BP1 to MCP seems to be a reliable way to recruit functi
 
 \subsection{Reporter expression is impacted by G3BP1} \label{mcp_luciferase}
 
-Having proven that G3BP1 can be recruited to mRNAs, I wanted to investigate the effect on translational activity. \textit{Renilla} luciferase assays are used to measure reporter expression on a global level.
+Having shown that G3BP1 can be recruited to mRNAs, I wanted to investigate the effect on translational activity. \textit{Renilla} luciferase assays are used to measure reporter expression on a global level.
 As G3BP1 was shown to be involved in stress-induced events as well as in unstressed conditions, the luciferase activity at multiple time points in unstressed cells as well as in cells recovering from oxidative stress was measured.
 
 \begin{figure}[t!]
@@ -64,10 +62,9 @@ As G3BP1 was shown to be involved in stress-induced events as well as in unstres
 \end{figure}
 
 In unstressed cells, G3BP1 recruitment resulted in increased luciferase readings over time (Figure \ref{fig:mcp_luciferase}A).
-This suggests that the presence of G3BP1 might promote protein synthesis.
+This suggests that the presence of G3BP1 on a transcript might promote protein synthesis.
 Comparing both constructs during stress recovery, one can observe a slightly less significant but still noticeable increase in luciferase activity for MCPG3 expressing cells (Figure \ref{fig:mcp_luciferase}B).
 Interestingly, the largest effects are at later time points and during non-stress conditions while not being immediately after stress recovery.
-This suggests a lesser involvement of G3BP1 on translational activity during stress.
 SGs have been observed to persist between a few minutes to hours after removal of the stressor \cite{chen_relationships_2017}.
 This correlates with the time when an increase in luciferase activity can be observed again.
 
@@ -81,14 +78,15 @@ To investigate the former possibility, I decided to use SunTag imaging, to direc
 In SunTag imaging, the fluorescence intensity is a direct measure of translation rate.
 Therefore, to analyze the translation activity of MCPG3-bound mRNAs, the intensity of translation site spots was quantified over at least four consecutive timeframes with a maximum of one gap frame.
 
-During stress conditions, most mRNAs get translationally silenced (reviewed in Holcik and Sonenberg \cite{holcik_translational_2005}).
-To image translation sites despite this silencing, images were acquired 15 to 30 minutes after removing the stressor.
-
-When comparing SunTag tracks in cells expressing MCPG3 or control MCP (Figure \ref{fig:mcp_suntag}A), both conditions show similar fluorescence intensities suggesting G3BP1 does not have a major effect on mRNA translation rates.
-The lower readings of fluorescent intensity in the stress condition can be explained by translational silencing during stress which was not fully recovered.
+When comparing SunTag tracks in unstressed cells expressing MCPG3 or control MCP (Figure \ref{fig:mcp_suntag}A), both conditions show similar fluorescence intensities suggesting G3BP1 does not have a major effect on mRNA translation rates.
 Similarly, the grouping of SunTag tracks into segmented cells shows comparable mean intensities in cells expressing MCPG3 or control MCP.
 Equivalently to the image-level analysis, cellular intensities (Figure \ref{fig:mcp_suntag}B) do not yield different results.
 The average intensity of all tracks per cell does not appear to be affected by G3BP1 fusion.
+
+During stress conditions, most mRNAs get translationally silenced (reviewed in Holcik and Sonenberg \cite{holcik_translational_2005}).
+To image translation sites despite this silencing, images were acquired 15 to 30 minutes after removing the stressor.
+Nonetheless, cells did not fully recover the translational silencing leading to lower readings of fluorescent intensity in the stress condition compared to unstressed cells.
+However, in this case as well, G3BP1 tethering does not lead to significant differences in translational activity.
 
 Lastly, translation can also increase due to a higher number of translating transcripts per cell.
 However, as is evident from Figure \ref{fig:mcp_suntag}C the number of translating tracks stays consistent in all experiments.
@@ -118,16 +116,17 @@ This suggests that G3BP1 does not have a profound impact on translation activity
 \subsection{Transcript stability is affected by G3BP1 tethering} \label{mcp_treat}
 
 SunTag measurements (see Section \ref{mcp_suntag}) did not suggest any effect of G3BP1 on translational activity.
-Alternatively, a decrease in mRNA degradation could also explain the original luciferase readings.
-To ask whether G3BP1 has an mRNA stabilizing effect, I compared the half-lives of transcripts between MCPG3 and the control using 3(three)'-RNA end accumulation during turnover (TREAT) \cite{horvathova_dynamics_2017}.
+Alternatively, a decrease in mRNA degradation could also explain the increased \textit{Renilla} luciferase readings.
+To ask whether G3BP1 has an mRNA stabilizing effect, I compared the half-lives of transcripts between MCPG3 and the control using 3(three)$'$-RNA end accumulation during turnover (TREAT) \cite{horvathova_dynamics_2017}.
 
 TREAT uses a slightly modified reporter mRNA containing viral RNA pseudo-knot (PK) structures upstream of the MS2 stem-loops.
-These PKs can block Xrn1 mediated 5'-3' degradation of a transcript by sequestering the 5' phosphate group \cite{kieft_new_2015}.
+These PKs can block Xrn1 mediated 5$'$-3$'$ degradation of a transcript by sequestering the 5$'$ phosphate group \cite{kieft_new_2015}.
 Subsequently, by using FISH probes against \textit{Renilla} luciferase upstream of PKs (showing intact mRNAs) and FISH probes against MS2 stem-loops downstream of PKs (showing both intact and degraded mRNAs) one can quantify the number of degradation intermediates.
 
 To look at transcript stabilization, a cell line expressing the aforementioned TREAT mRNA reporter was used.
-Five time points were chosen to match TREAT half-life after a 1 hour induction followed by thorough washing to halt any further transcription.
-As can be seen in Figure \ref{fig:mcp_treat}A, transcripts get exported to the cytosol as soon as transcription is stopped.
+Five time points were chosen to match TREAT half-life after a 1 hour induction followed by thorough washing to remove doxycycline to halt any further transcription.
+As can be seen in Figure \ref{fig:mcp_treat}A, transcripts are exported from the nucleus into the cytosol over the course of the experiment.
+This suggests that no new transcripts are produced in the nucleus and that MCPG3 does not negatively affect nuclear export.
 
 When comparing the percentage of intact mRNAs, i.e. transcripts still containing FISH spots against both \textit{Renilla} luciferase and MS2, between MCPG3 and the control, a striking difference is evident (Figure \ref{fig:mcp_treat}B).
 The G3BP1 fusion shows a significant reduction in degraded transcripts compared to the control suggesting an increase in mRNA stability.
@@ -151,11 +150,11 @@ This effect is not reflected in the translation site-based mRNA count from the S
 \section{How can the SunTag reporter be improved?} \label{spaghetti}
 
 The original design of the SunTag cassette consists of 24 GCN4 repeats.
-These completely disordered repeats are thought to render the protein insoluble and could lead to a decrease in translation rates \cite{gurry_order_2015}.
-In an attempt to decrease protein disorder, a spaghetti monster reporter was made \cite{zhao_genetically_2019}.
-Spaghetti monster green fluorescent proteins (smGFP) are essentially a non-fluorescent green fluorescent protein's (GFP) beta-barrel used to attach small epitope tags.
+These completely disordered repeats have previously lead to the observations of decreased \textit{Renilla} luciferase activity and lower induction rates than \textit{Renilla} without SunTag.
+In an attempt to improve the SunTag based translation imaging system, a spaghetti monster reporter was made.
+Spaghetti monster green fluorescent proteins (smGFP) are essentially a non-fluorescent green fluorescent protein's (GFP) beta-barrel used to attach small epitope tags \cite{viswanathan_high-performance_2015}.
 Here, three GCN4 repeats each were placed at the N-terminus, C-terminus, and 10/11-loop of the GFP beta-barrel as shown in Figure \ref{fig:spaghetti}A.
-Previously, other tags, such as influenza hemagglutinin (HA), were used and visualized with frankenbodies (single-chain antibodies targeting various tags).
+Previously, other tags, such as influenza hemagglutinin (HA), were used and visualized with frankenbodies (single-chain antibodies targeting various tags) \cite{zhao_genetically_2019}.
 In this study, I attempt to combine SunTag imaging with smGFP constructs.
 
 Initially, while testing the reporter functionality the new reporter showed an approximative 4-fold increase in luciferase activity compared to the standard SunTag reporter (Figure \ref{fig:spaghetti}B).
@@ -167,11 +166,12 @@ To look at the effect of the new reporter in live cells, stable cell lines were 
 From a representative image in Figure \ref{fig:spaghetti}C, one can see that cells typically have more, slightly dimmer translation sites.
 Quantification of images showed a significant increase in the number of translation sites per cell compared to the cells expressing the standard SunTag reporter (Figure \ref{fig:spaghetti}D).
 The brightness of individual spots decreased around 2.7 fold (Figure \ref{fig:spaghetti}E).
-This decrease can be explained by a lower number of GCN4 repeats available for the scAB to bind.
+This decrease can be explained by a lower number of GCN4 repeats available for the scFv to bind.
 Whereas the standard SunTag has 24 GCN4 repeats, smGFP only has 9 leading to a binding site difference of 2.6$\overline{\mbox{6}}$ to 1.
+This suggests that the scFv binds to both tags with full occupancy.
 
 Taken together, this study proposes a new SunTag reporter which increases translational activity by greatly increasing the number of active transcription sites.
-This new reporter allows for shorter induction times with higher mRNA numbers and the folded structure should reduce solubility-based problems.
+This new reporter allows for shorter induction times with higher mRNA numbers.
 
 \begin{figure}[h]
     \centering
@@ -179,7 +179,7 @@ This new reporter allows for shorter induction times with higher mRNA numbers an
     \caption{\textbf{smGFP SunTag reporter increases transcript numbers.}
         (A) Structural overview of GCN4 repeat placement on the smGFP beta-barrel (PDB ID: 1GFL \cite{yang_molecular_1996}).
         (B) Relative luciferase activity comparing the standard SunTag reporter,
-            the smGFP SunTag reporter, and a Renilla reporter without SunTag cassette.
+            the smGFP SunTag reporter (smGFP-SunTag), and a \textit{Renilla} reporter without SunTag cassette.
         (C) Representative fluorescence images. Each recorded mRNA track is 
             visualized with a unique color. Scale bar, 10 \textmu m.
             The inset shows spots from raw images without brightness corrections.
@@ -187,6 +187,8 @@ This new reporter allows for shorter induction times with higher mRNA numbers an
             The number of cells quantified (left to right): 286, 233.
         (E) Average spot intensity normalized to the smGFP reporter.
             The number of spots quantified (left to right): 36, 39. Two replicates.
+        (C, D, and E) Live imaging experiment with stable cell lines imaged after 1 hour
+            of induction.
     }
     \label{fig:spaghetti}
 \end{figure}

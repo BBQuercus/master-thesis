@@ -22,7 +22,7 @@ This is the official GitHub repository accompanying my Master thesis. It contain
 * **Supervisors**: Jeffrey A. Chao and Susan E. Mango
 * **Location**: Friedrich Miescher Institute for Biomedical Research and University of Basel, Switzerland
 * **Degree**: Master of Science in Molecular Biology
-* **Date of Submission**: May, 2020
+* **Date of submission**: May, 2020
 
 
 

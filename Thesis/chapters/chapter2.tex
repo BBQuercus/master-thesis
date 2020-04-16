@@ -1,7 +1,7 @@
 \chapter{Methods}
 
 
-\section{Key Resources}
+\section{Key resources}
 
 \small
 
@@ -112,7 +112,7 @@
 \end{tabularx}
 \normalsize
 
-\section{Method Details}
+\section{Method details}
 
 \textbf{Cell lines and culture details} \\
 The previously described HeLa-11ht cell line \cite{weidenfeld_inducible_2009} was used for this study.
@@ -125,7 +125,7 @@ Transient transfections were performed with Lipofectamine 2000 transfection reag
 
 \textbf{Plasmid construction} \\
 To generate the G3BP1 coat protein fusion, the genomic sequence encoding the full-length G3BP1 Isoform 1 (Q13283-1) was inserted in-frame, downstream of the HaloTag sequence.
-A 33 nt linker sequence was kept between HaloTag and G3BP1 to ensure steric movement.
+A 33 nt linker sequence was kept between HaloTag and G3BP1 to promote flexibility between the domains.
 Assembly was performed by PCR amplification of G3BP1 and the MCP-Halo-linker backbone, followed by Gibson cloning \cite{gibson_enzymatic_2009}.
 The resulting construct contains a constitutive UbiC promoter, SV40 NLS (nuclear localization signal), stdMCP (MS2 coat protein), HaloTag, 33 nt linker sequence, G3BP1 with a stop codon, and a  Woodchuck Hepatitis Virus Posttranscriptional Regulatory Element (WPRE) improving expression in lentiviral transfection (Figure \ref{fig:plasmid_1}).
 
@@ -156,7 +156,7 @@ To ensure full cellular lysis, plates were gently shaken for 15 minutes at room 
 30 \textmu l lysate was transferred to 96-well EIA/RIA Plate (Costar) in triplicates.
 Bioluminescence was measured 2 seconds after injecting 12 \textmu l \textit{Renilla} Luciferase Assay Reagent per well.
 Measurements were performed on the Mithras Multimode Microplate Reader LB 940 (Berthold).
-Data were normalized by protein concentration measured by standard Bradford Protein Assay.
+Data were normalized by protein concentration measured by standard Bradford Protein Assay (Biorad).
 Means of at least 3 biological replicates (each with 3 described technical replicates) were calculated.
 \\
 
@@ -205,7 +205,7 @@ Cells were maintained at 37ºC and 5\% CO\textsubscript{2} within an incubation 
 \\
 
 
-\section{Quantification and Statistical Analysis}
+\section{Quantification and statistical analysis}
 
 \textbf{Detection of mRNA spots from smFISH and colocalization} \\
 Using custom-built python scripts, images were registered and maximum intensity projected in all channels.
@@ -214,14 +214,11 @@ First, a sequential workflow comprising Gaussian filtering steps, Otsu threshold
 Subsequently, the nuclei were used as seeds to perform a watershed segmentation into a previously thresholded cytoplasmic map.
 Cytoplasmic channels were chosen based on their signal uniformity (561 nm \textit{Renilla} or MS2v5 probe channel).
 SGs were segmented in Fluffy \cite{eichenberger_fluffy_2020}.
-mRNA spots were detected with a Laplacian of Gaussian.
+mRNA spots were detected with a Laplacian of Gaussian filter.
 Thresholds for cellular segmentation and spot detection were kept constant throughout a dataset.
 To colocalize mRNA spots, Euclidean distances were calculated between spots across both channels.
 To ensure proper channel-to-channel association of mRNA spots, cells with a high spot density were filtered out.
-Cellular outliers with significantly higher or lower nuclear areas, cytoplasmic areas or absolute spot numbers were removed.
 Two mRNAs were considered as colocalized when their coordinates are less than 2 px (240 nm) apart.
-For TREAT experiments, each spot in the measurement channel should be paired to a spot in the reference channel.
-Therefore, cells with low measurement-to-reference pairing were excluded from the analysis.
 \\
 
 \textbf{Processing of live-cell imaging data} \\
@@ -251,6 +248,6 @@ Each star corresponds to the following p-values:
     \item ****: p <= e\textsuperscript{-4}
 \end{itemize}
 
-\section{Data and Code Availability}
+\section{Data and code availability}
 The code used to analyze and visualize the data together with plasmid maps is available on GitHub\footnote{\href{https://github.com/BBQuercus/master-thesis}{https://github.com/BBQuercus/master-thesis}}.
 All data supporting the findings of this study are available on request.

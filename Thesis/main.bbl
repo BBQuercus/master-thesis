@@ -10,6 +10,12 @@ Ian~A. Swinburne and Pamela~A. Silver.
 \newblock Intron {Delays} and {Transcriptional} {Timing} during {Development}.
 \newblock {\em Developmental cell}, 14(3):324--330, March 2008.
 
+\bibitem{schoenberg_regulation_2012}
+Daniel~R. Schoenberg and Lynne~E. Maquat.
+\newblock Regulation of cytoplasmic {mRNA} decay.
+\newblock {\em Nature Reviews Genetics}, 13(4):246--259, April 2012.
+\newblock Number: 4 Publisher: Nature Publishing Group.
+
 \bibitem{anderson_rna_2006}
 Paul Anderson and Nancy Kedersha.
 \newblock {RNA} granules.
@@ -258,12 +264,6 @@ P.~Thévenaz, U.~E. Ruttimann, and M.~Unser.
 \newblock {\em IEEE transactions on image processing: a publication of the IEEE
   Signal Processing Society}, 7(1):27--41, 1998.
 
-\bibitem{costa_human_1999}
-M.~Costa, A.~Ochem, A.~Staub, and A.~Falaschi.
-\newblock Human {DNA} helicase {VIII}: a {DNA} and {RNA} helicase corresponding
-  to the {G3BP} protein, an element of the ras transduction pathway.
-\newblock {\em Nucleic Acids Research}, 27(3):817--821, February 1999.
-
 \bibitem{kedersha_g3bp-caprin1-usp10_2016}
 Nancy Kedersha, Marc~D. Panas, Christopher~A. Achorn, Shawn Lyons, Sarah
   Tisdale, Tyler Hickman, Marshall Thomas, Judy Lieberman, Gerald~M. McInerney,
@@ -288,6 +288,13 @@ Umber Alam and Derek Kennedy.
 \newblock {\em Biochimica Et Biophysica Acta. Molecular Cell Research},
   1866(3):360--370, 2019.
 
+\bibitem{zhang_chronic_2019}
+Peipei Zhang, Baochang Fan, Peiguo Yang, Jamshid Temirov, James Messing,
+  Hong~Joo Kim, and J~Paul Taylor.
+\newblock Chronic optogenetic induction of stress granules is cytotoxic and
+  reveals the evolution of {ALS}-{FTD} pathology.
+\newblock {\em eLife}, 8:e39578, March 2019.
+
 \bibitem{chen_relationships_2017}
 Lihua Chen and Beidong Liu.
 \newblock Relationships between {Stress} {Granules}, {Oxidative} {Stress}, and
@@ -306,11 +313,14 @@ Jeffrey~S. Kieft, Jennifer~L. Rabe, and Erich~G. Chapman.
   {Xrn1}-resistant {RNA}: {Conservation}, folding, and host adaptation.
 \newblock {\em RNA biology}, 12(11):1169--1177, 2015.
 
-\bibitem{gurry_order_2015}
-Thomas Gurry.
-\newblock {\em Order, disorder, and protein aggregation}.
-\newblock Thesis, Massachusetts Institute of Technology, 2015.
-\newblock Accepted: 2015-06-10T19:12:13Z.
+\bibitem{viswanathan_high-performance_2015}
+Sarada Viswanathan, Megan~E. Williams, Erik~B. Bloss, Timothy~J. Stasevich,
+  Colenso~M. Speer, Aljoscha Nern, Barret~D. Pfeiffer, Bryan~M. Hooks, Wei-Ping
+  Li, Brian~P. English, Teresa Tian, Gilbert~L. Henry, John~J. Macklin, Ronak
+  Patel, Charles~R. Gerfen, Xiaowei Zhuang, Yalin Wang, Gerald~M. Rubin, and
+  Loren~L. Looger.
+\newblock High-performance probes for light and electron microscopy.
+\newblock {\em Nature Methods}, 12(6):568--576, June 2015.
 
 \bibitem{zhao_genetically_2019}
 Ning Zhao, Kouta Kamijo, Philip~D. Fox, Haruka Oda, Tatsuya Morisaki, Yuko
