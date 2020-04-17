@@ -82,6 +82,11 @@ J.~Ross Buchan and Roy Parker.
   {Translation}.
 \newblock {\em Molecular Cell}, 36(6):932--941, December 2009.
 
+\bibitem{panas_mechanistic_2016}
+Marc~D. Panas, Pavel Ivanov, and Paul Anderson.
+\newblock Mechanistic insights into mammalian stress granule dynamics.
+\newblock {\em The Journal of Cell Biology}, 215(3):313--323, November 2016.
+
 \bibitem{thomas_rna_2011}
 María~Gabriela Thomas, Mariela Loschi, María~Andrea Desbats, and
   Graciela~Lidia Boccaccio.
@@ -114,6 +119,66 @@ Ujwal Sheth and Roy Parker.
 \newblock Decapping and {Decay} of {Messenger} {RNA} {Occur} in {Cytoplasmic}
   {Processing} {Bodies}.
 \newblock {\em Science (New York, N.Y.)}, 300(5620):805--808, May 2003.
+
+\bibitem{markmiller_context-dependent_2018}
+Sebastian Markmiller, Sahar Soltanieh, Kari~L. Server, Raymond Mak, Wenhao Jin,
+  Mark~Y. Fang, En-Ching Luo, Florian Krach, Dejun Yang, Anindya Sen, Amit
+  Fulzele, Jacob~M. Wozniak, David~J. Gonzalez, Mark~W. Kankel, Fen-Biao Gao,
+  Eric~J. Bennett, Eric Lécuyer, and Gene~W. Yeo.
+\newblock Context-{Dependent} and {Disease}-{Specific} {Diversity} in {Protein}
+  {Interactions} within {Stress} {Granules}.
+\newblock {\em Cell}, 172(3):590--604.e13, January 2018.
+
+\bibitem{jain_atpase-modulated_2016}
+Saumya Jain, Joshua R. Wheeler, Robert W. Walters, Anurag Agrawal, Anthony
+  Barsic, and Roy Parker.
+\newblock {ATPase}-{Modulated} {Stress} {Granules} {Contain} a {Diverse}
+  {Proteome} and {Substructure}.
+\newblock {\em Cell}, 164(3):487--498, January 2016.
+
+\bibitem{youn_high-density_2018}
+Ji-Young Youn, Wade~H. Dunham, Seo~Jung Hong, James D.~R. Knight, Mikhail
+  Bashkurov, Ginny~I. Chen, Halil Bagci, Bhavisha Rathod, Graham MacLeod, Simon
+  W.~M. Eng, Stéphane Angers, Quaid Morris, Marc Fabian, Jean-François
+  Côté, and Anne-Claude Gingras.
+\newblock High-{Density} {Proximity} {Mapping} {Reveals} the {Subcellular}
+  {Organization} of {mRNA}-{Associated} {Granules} and {Bodies}.
+\newblock {\em Molecular Cell}, 69(3):517--532.e11, February 2018.
+
+\bibitem{khong_isolation_2018}
+Anthony Khong, Saumya Jain, Tyler Matheny, Joshua~R. Wheeler, and Roy Parker.
+\newblock Isolation of mammalian stress granule cores for {RNA}-{Seq} analysis.
+\newblock {\em Methods}, 137:49--54, March 2018.
+
+\bibitem{guillen-boixet_rna-induced_2020}
+Jordina Guillén-Boixet, Andrii Kopach, Alex~S. Holehouse, Sina Wittmann,
+  Marcus Jahnel, Raimund Schlüßler, Kyoohyun Kim, Irmela R. E.~A. Trussina,
+  Jie Wang, Daniel Mateju, Ina Poser, Shovamayee Maharana, Martine Ruer-Gruß,
+  Doris Richter, Xiaojie Zhang, Young-Tae Chang, Jochen Guck, Alf Honigmann,
+  Julia Mahamid, Anthony~A. Hyman, Rohit~V. Pappu, Simon Alberti, and Titus~M.
+  Franzmann.
+\newblock {RNA}-{Induced} {Conformational} {Switching} and {Clustering} of
+  {G3BP} {Drive} {Stress} {Granule} {Assembly} by {Condensation}.
+\newblock {\em Cell}, 181(2):346--361.e17, April 2020.
+
+\bibitem{sanders_competing_2020}
+David~W. Sanders, Nancy Kedersha, Daniel S.~W. Lee, Amy~R. Strom, Victoria
+  Drake, Joshua~A. Riback, Dan Bracha, Jorine~M. Eeftens, Allana Iwanicki,
+  Alicia Wang, Ming-Tzo Wei, Gena Whitney, Shawn~M. Lyons, Paul Anderson,
+  William~M. Jacobs, Pavel Ivanov, and Clifford~P. Brangwynne.
+\newblock Competing {Protein}-{RNA} {Interaction} {Networks} {Control}
+  {Multiphase} {Intracellular} {Organization}.
+\newblock {\em Cell}, 181(2):306--324.e28, April 2020.
+\newblock Publisher: Elsevier.
+
+\bibitem{yang_g3bp1_2020}
+Peiguo Yang, Cécile Mathieu, Regina-Maria Kolaitis, Peipei Zhang, James
+  Messing, Ugur Yurtsever, Zemin Yang, Jinjun Wu, Yuxin Li, Qingfei Pan, Jiyang
+  Yu, Erik~W. Martin, Tanja Mittag, Hong~Joo Kim, and J.~Paul Taylor.
+\newblock {G3BP1} {Is} a {Tunable} {Switch} that {Triggers} {Phase}
+  {Separation} to {Assemble} {Stress} {Granules}.
+\newblock {\em Cell}, 181(2):325--345.e28, April 2020.
+\newblock Publisher: Elsevier.
 
 \bibitem{tanenbaum_protein-tagging_2014}
 Marvin E. Tanenbaum, Luke A. Gilbert, Lei S. Qi, Jonathan S. Weissman, and
@@ -271,15 +336,6 @@ Nancy Kedersha, Marc~D. Panas, Christopher~A. Achorn, Shawn Lyons, Sarah
 \newblock {G3BP}-{Caprin1}-{USP10} complexes mediate stress granule
   condensation and associate with {40S} subunits.
 \newblock {\em The Journal of Cell Biology}, 212(7):845--860, March 2016.
-
-\bibitem{markmiller_context-dependent_2018}
-Sebastian Markmiller, Sahar Soltanieh, Kari~L. Server, Raymond Mak, Wenhao Jin,
-  Mark~Y. Fang, En-Ching Luo, Florian Krach, Dejun Yang, Anindya Sen, Amit
-  Fulzele, Jacob~M. Wozniak, David~J. Gonzalez, Mark~W. Kankel, Fen-Biao Gao,
-  Eric~J. Bennett, Eric Lécuyer, and Gene~W. Yeo.
-\newblock Context-{Dependent} and {Disease}-{Specific} {Diversity} in {Protein}
-  {Interactions} within {Stress} {Granules}.
-\newblock {\em Cell}, 172(3):590--604.e13, January 2018.
 
 \bibitem{alam_rasputin_2019}
 Umber Alam and Derek Kennedy.

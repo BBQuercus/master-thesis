@@ -17,7 +17,7 @@ This is the official GitHub repository accompanying my Master thesis. It contain
 
 ### Details
 
-* **Thesis title**: "Single-molecule imaging of mRNA to study translational regulation"
+* **Thesis title**: "Single-molecule imaging of mRNA to study the stress granule protein G3BP1."
 * **Author**: Bastian Th. Eichenberger
 * **Supervisors**: Jeffrey A. Chao and Susan E. Mango
 * **Location**: Friedrich Miescher Institute for Biomedical Research and University of Basel, Switzerland

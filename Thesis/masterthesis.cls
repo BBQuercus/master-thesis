@@ -213,14 +213,14 @@
                 \includegraphics[height=2cm]{images/fmi_logo.jpg}
             \end{flushright}
             
-            \vspace*{15mm}
+            \vspace*{10mm}
             
             {\Large {Master Thesis} \par}
             \vspace*{5mm}
             
             {\huge {\bfseries \@title} \par}
             
-            \vspace*{15mm}
+            \vspace*{10mm}
             
             {\large {\textit{Author:} \@author} \par}
             {\large {\textit{Supervisor:} \@supervisor} \par}
