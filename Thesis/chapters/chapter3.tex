@@ -1,12 +1,12 @@
 \chapter{Results}
 
 
-\section{G3BP1 tethering affects mRNA dynamics}
+\section{G3BP1 tethering affects mRNA localization}
 
 Proteins of the G3BP RNA-binding family are key components of SGs.
 In mammals, G3BP1 (and its paralog G3BP2) were reported to be essential in nucleating the formation of SGs \cite{kedersha_g3bp-caprin1-usp10_2016}.
 SGs can not only be induced by stress (e.g. sodium arsenite) but also by the overexpression of G3BPs \cite{tourriere_rasgap-associated_2003}.
-In addition, a recent imaging-based study by Markmiller et al. \cite{markmiller_context-dependent_2018} showed that "many well-characterized SG proteins (e.g., G3BP1, TIA1, CAPRIN1, PABPC1, FMR1, and ATXN2) were identified as highly significant interactors" suggesting an interplay of SG proteins even in unstressed conditions.
+In addition, a recent proteomics-based study by Markmiller et al. \cite{markmiller_context-dependent_2018} showed that "many well-characterized SG proteins (e.g., G3BP1, TIA1, CAPRIN1, PABPC1, FMR1, and ATXN2) were identified as highly significant interactors" suggesting an interplay of SG proteins even in unstressed conditions.
 This finding might suggest the formation of an mRNP complex containing SG proteins allowing for a rapid assembly of SGs.
 
 The exact role of G3BPs in SG assembly as well as in unstressed cells is still largely unknown.
@@ -24,7 +24,7 @@ For this reason, I designed an assay to directly tether G3BP1 to reporter mRNAs 
         (A) Schematic depiction of MCPG3 function.
         (B) Representative fluorescence images of the SG marker
             TIA-1 and the tethered RNAs.
-            To induce SGs, cells were treated with 1 mM/ml sodium arsenite for 1 hour.
+            To induce SGs, cells were treated with sodium arsenite (1 mM/ml) for 1 hour.
             Pannels show TIA-1, FISH, Merge respectively.
             Scale bars, 10 \textmu m.
         (C) Quantification of the mRNA recruitment to SGs.
@@ -129,7 +129,7 @@ Five time points were chosen to match TREAT half-life after a 1 hour induction f
 As can be seen in Figure \ref{fig:mcp_treat}A, transcripts are exported from the nucleus into the cytosol over the course of the experiment.
 This suggests that no new transcripts are produced in the nucleus and that MCPG3 does not negatively affect nuclear export.
 
-When comparing the percentage of intact mRNAs, i.e. transcripts still containing FISH spots against both \textit{Renilla} luciferase and MS2, between MCPG3 and the control, a striking difference is evident (Figure \ref{fig:mcp_treat}B).
+When comparing the percentage of intact mRNAs, i.e. transcripts still containing FISH spots against both \textit{Renilla} luciferase and MS2, between MCPG3 and the control, I observed a significant difference (Figure \ref{fig:mcp_treat}B).
 The G3BP1 fusion shows a significant reduction in degraded transcripts compared to the control suggesting an increase in mRNA stability.
 This effect is not reflected in the translation site-based mRNA count from the SunTag measurements (see Section \ref{mcp_suntag}) which might arise from the nature of the SunTag cassette that will be discussed in the following Section \ref{spaghetti}.
 
@@ -151,7 +151,7 @@ This effect is not reflected in the translation site-based mRNA count from the S
 \section{How can the SunTag reporter be improved?} \label{spaghetti}
 
 The original design of the SunTag cassette consists of 24 GCN4 repeats.
-These completely disordered repeats have previously lead to the observations of decreased \textit{Renilla} luciferase activity and lower induction rates than \textit{Renilla} without SunTag.
+These completely disordered repeats have previously lead to the observations of decreased \textit{Renilla} luciferase activity and lower induction rates than \textit{Renilla} luciferase without SunTag.
 In an attempt to improve the SunTag based translation imaging system, a spaghetti monster reporter was made.
 Spaghetti monster green fluorescent proteins (smGFP) are essentially a non-fluorescent green fluorescent protein's (GFP) beta-barrel used to attach small epitope tags \cite{viswanathan_high-performance_2015}.
 Here, three GCN4 repeats each were placed at the N-terminus, C-terminus, and 10/11-loop of the GFP beta-barrel as shown in Figure \ref{fig:spaghetti}A.
@@ -163,7 +163,7 @@ A \textit{Renilla} reporter was used as control which does not contain any GCN4 
 While the smGFP reporter drastically increases activity, it does not yet reach the levels of the control.
 It must be noted, that the control construct does not contain an FKBP tag which has lowered the luciferase activity in previous experiments by enhancing the degradation of the tagged protein \cite{bonger_small_2011}.
 
-To look at the effect of the new reporter in live cells, stable cell lines were created and observed after 1 hour of induction.
+To test whether this new reporter allows the visualization of translation sites in live cells, stable cell lines were created and observed after 1 hour of induction.
 From a representative image in Figure \ref{fig:spaghetti}C, one can see that cells typically have more, slightly dimmer translation sites.
 Quantification of images showed a significant increase in the number of translation sites per cell compared to the cells expressing the standard SunTag reporter (Figure \ref{fig:spaghetti}D).
 The brightness of individual spots decreased around 2.7 fold (Figure \ref{fig:spaghetti}E).

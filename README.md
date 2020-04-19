@@ -9,7 +9,7 @@ This is the official GitHub repository accompanying my Master thesis. It contain
 │   ├── *.py           <- Image analysis scripts.
 │   └── Visualization.ipynb <- Jupyter notebook for plotting.
 ├── Figures            <- Affinity Designer files to create the figures.
-├── Plasmids           <- Genebank plasmid maps
+├── Plasmids           <- Genebank plasmid maps.
 └── Thesis             <- LaTeX files to build the thesis.
 ```
 
@@ -17,7 +17,7 @@ This is the official GitHub repository accompanying my Master thesis. It contain
 
 ### Details
 
-* **Thesis title**: "Single-molecule imaging of mRNA to study the stress granule protein G3BP1."
+* **Thesis title**: "Investigating the stress granule protein G3BP1 with single-molecule imaging of mRNA."
 * **Author**: Bastian Th. Eichenberger
 * **Supervisors**: Jeffrey A. Chao and Susan E. Mango
 * **Location**: Friedrich Miescher Institute for Biomedical Research and University of Basel, Switzerland

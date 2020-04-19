@@ -161,7 +161,7 @@ Means of at least 3 biological replicates (each with 3 described technical repli
 \\
 
 \textbf{Single-molecule fluorescence in situ hybridization (FISH)} \\
-Single-molecule RNA detection against the \textit{Renilla} coding sequence and MS2 (v5) was performed using Stellaris FISH probes (Biosearch Technologies).
+Single-molecule RNA detection against the \textit{Renilla} luciferase coding sequence and MS2 (v5) was performed using Stellaris FISH probes (Biosearch Technologies).
 Probes targeting MS2 (v4) were made by enzymatic oligonucleotide labeling \cite{gaspar_rna_2018} with Amino-11-ddUTP (Lumiprobe) and Atto647-NHS (ATTO-TEC). 
 
 Cells were seeded on glass coverslips (Paul Marienfeld GmbH) placed in 12-well plates.
@@ -212,7 +212,7 @@ Using custom-built python scripts, images were registered and maximum intensity 
 Cells were segmented in two steps.
 First, a sequential workflow comprising Gaussian filtering steps, Otsu thresholding \cite{otsu_threshold_1979}, and distance transform calculations of the DAPI channel (405 nm) was used to segment individual nuclei.
 Subsequently, the nuclei were used as seeds to perform a watershed segmentation into a previously thresholded cytoplasmic map.
-Cytoplasmic channels were chosen based on their signal uniformity (561 nm \textit{Renilla} or MS2v5 probe channel).
+Cytoplasmic channels were chosen based on their signal uniformity (561 nm \textit{Renilla} luciferase or MS2v5 probe channel).
 SGs were segmented in Fluffy \cite{eichenberger_fluffy_2020}.
 mRNA spots were detected with a Laplacian of Gaussian filter.
 Thresholds for cellular segmentation and spot detection were kept constant throughout a dataset.
