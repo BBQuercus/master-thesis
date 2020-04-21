@@ -1,10 +1,9 @@
 import glob
-import math
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-import pandas as pd
 import scipy.ndimage as ndi
+import pandas as pd
 import skimage.feature
 import skimage.io
 import skimage.measure
@@ -63,38 +62,7 @@ def cytoplasmic_segmentation(image, nucleus):
     return img
 
 
-def blob_detection(image):
-    '''
-    Detects spots in an image returning the coordinates and size.
-    Returns in the format "row (y), column (x), sigma"
-    '''
-    blobs = skimage.feature.blob_log(image, max_sigma=2, threshold=0.05)
-    return blobs
-
-
-def blob_visualization(image, blobs, size=False):
-    ''' Shows blob detected spots on an image. '''
-
-    fig, ax = plt.subplots(1, figsize=(10, 10))
-    ax.imshow(image, cmap='gray')
-
-    # Matplotlib functions plot in xy direction, not rc
-    if size:
-        blobs[:, 2] = blobs[:, 2] * math.sqrt(2)
-
-        for blob in blobs:
-            y, x, r = blob
-            c = plt.Circle((x, y), r, color='red', linewidth=1, fill=False)
-            ax.add_patch(c)
-    else:
-        ax.scatter(blobs[:, 1], blobs[:, 0], s=1, marker='x', c='red')
-
-    ax.set_axis_off()
-    plt.tight_layout()
-    plt.show()
-
-
-def get_value(x, y, image, threshold=None):
+def get_value(r, c, image, threshold=None):
     '''
     Returns the label value at a blob position.
     Optional thresholding allows for boolean predictions.
@@ -103,33 +71,15 @@ def get_value(x, y, image, threshold=None):
     if threshold is not None:
         image = image > threshold
 
-    label = image[int(y), int(x)]
+    label = image[int(r), int(c)]
 
     return label
 
 
-def get_count(x, y, region, subregion=None):
-    '''
-    Returns the number of blobs in the specified region / subregion.
-    '''
-
-    if subregion is not None:
-        region = region - subregion > 0
-    else:
-        region = region > 0
-
-    x_int = x.astype(int)
-    y_int = y.astype(int)
-    xy_true = [region[j, i] for i, j in zip(x_int, y_int)]
-    count = np.count_nonzero(xy_true)
-
-    return count
-
-
 def main():
 
-    ROOT = 'PATH'
-    ROOT_SEG = 'PATH'  # Output from Fluffy
+    ROOT = ''
+    ROOT_SEG = ''  # Output from Fluffy
 
     files_nd = glob.glob(f'{ROOT}/*Ars*.nd')
     basenames = sorted([os.path.splitext(f)[0] for f in files_nd])
@@ -141,40 +91,35 @@ def main():
     files_seg = sorted(glob.glob(f'{ROOT_SEG}/*Ars*.tiff'))
     images_seg = list(map(skimage.io.imread, files_seg))
 
-    rows_blobs = []
+    rows = []
 
     for i, file in enumerate(files):
         image = read_files(file)
 
         nucleus = nuclear_detection(image[0])
         cytoplasm = cytoplasmic_segmentation(image[1], nucleus)
-        cell = nucleus + cytoplasm
-        granules = images_seg[i] > 0
+        granules = (images_seg[i] > 0).astype(np.uint8)
+        granules = np.where(nucleus > 0, 0, granules)
+        granules = skimage.measure.label(granules)
 
-        spots = blob_detection(image[2])
+        for n_granule in np.unique(granules)[1:]:
+            granule = (granules == n_granule).astype(np.uint8)
+            r_granule = skimage.measure.regionprops(granule, image[2])[0]
+            r, c = r_granule.centroid
 
-        for spot in spots:
-            x = spot[0]
-            y = spot[1]
-
-            row_blob = {
+            row = {
                 # General information
                 'file': file[0],
 
                 # Cellular measures
-                'cell': get_value(x, y, cell),
-                'nuclear': get_value(x, y, nucleus, threshold=0),
-                'granular': get_value(x, y, granules),
-                'granule': get_value(x, y, image[1]),
-
-                # Blob measures
-                'coord_x': spot[0],
-                'coord_y': spot[1],
+                'cell': get_value(r, c, cytoplasm),
+                'area': r_granule.area,
+                'intensity': r_granule.mean_intensity,
             }
-            rows_blobs.append(pd.Series(row_blob))
+            rows.append(pd.Series(row))
 
-    df = pd.DataFrame(rows_blobs)
-    df.to_csv('data_blobs.csv')
+    df = pd.DataFrame(rows)
+    df.to_csv('data.csv')
 
 
 if __name__ == "__main__":

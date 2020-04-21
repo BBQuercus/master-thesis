@@ -1,9 +1,9 @@
 from tqdm import tqdm
 import glob
+import logging
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-import logging
 import pandas as pd
 import scipy.ndimage as ndi
 import skimage.feature
