@@ -18,9 +18,9 @@
     \regtable{Experimental Models: Cell lines}
 
     Hela 11ht &Weidenfeld et al., 2009 \cite{weidenfeld_inducible_2009} &N/A \\\midrule
-    Hela 11ht + scAB-GFP + Renilla-MS2 &This study &N/A \\\midrule
-    Hela 11ht + scAB-GFP + smGCN4-Renilla-MS2 &This study &N/A \\\midrule
-    Hela 11ht + scAB-GFP + SunTag-Renilla-MS2 &This study &N/A \\\midrule
+    Hela 11ht + scFv-GFP + \textit{Renilla}-MS2 &This study &N/A \\\midrule
+    Hela 11ht + scFv-GFP + smGCN4-\textit{Renilla}-MS2 &This study &N/A \\\midrule
+    Hela 11ht + scFv-GFP + SunTag-\textit{Renilla}-MS2 &This study &N/A \\\midrule
     Hela 11ht + TREAT &This study &N/A \\
 \end{tabularx}
 
@@ -50,7 +50,7 @@
     \regtable{Critical Commercial Assays}
 
     Bradford Protein Assay &Biorad &5000006 \\\midrule
-    Renilla Luciferase Assay System &Promega &E2810 \\
+    \textit{Renilla} Luciferase Assay System &Promega &E2810 \\
 \end{tabularx}
 
 % Oligos
@@ -69,11 +69,11 @@
     NLS-stdMCP-stdHalo-G3BP1 &This Study &N/A \\\midrule
     NLS-stdMCP-stdHalo-Rh1 &This Study &N/A \\\midrule
     pCAGGS-FLPe-IRESpuro &Beard et al., 2006 \cite{beard_efficient_2006} &Addgene \#20733 \\\midrule
-    Renilla-MS2v5 &This Study &N/A \\\midrule
-    scAB-GFP &Voigt et al., 2017 \cite{voigt_single-molecule_2017} &Addgene \#104998 \\\midrule
-    smGCN4-Renilla-MS2v5 &This study &N/A \\\midrule
-    SunTag-Renilla-MS2v5 &Wilbertz et al., 2019 \cite{wilbertz_single-molecule_2019} &Addgene \#119945 \\\midrule
-    SunTag-Renilla-PP7-MS2v4 &Horvathova et al., 2017 \cite{horvathova_dynamics_2017} &N/A \\
+    \textit{Renilla}-MS2v5 &This Study &N/A \\\midrule
+    scFv-GFP &Voigt et al., 2017 \cite{voigt_single-molecule_2017} &Addgene \#104998 \\\midrule
+    smGCN4-\textit{Renilla}-MS2v5 &This study &N/A \\\midrule
+    SunTag-\textit{Renilla}-MS2v5 &Wilbertz et al., 2019 \cite{wilbertz_single-molecule_2019} &Addgene \#119945 \\\midrule
+    SunTag-\textit{Renilla}-PP7-MS2v4 &Horvathova et al., 2017 \cite{horvathova_dynamics_2017} &N/A \\
 \end{tabularx}
 
 % Equipment
@@ -127,11 +127,11 @@ Transient transfections were performed with Lipofectamine 2000 transfection reag
 To generate the G3BP1 coat protein fusion, the genomic sequence encoding the full-length G3BP1 Isoform 1 (Q13283-1) was inserted in-frame, downstream of the HaloTag sequence.
 A 33 nt linker sequence was kept between HaloTag and G3BP1 to promote flexibility between the domains.
 Assembly was performed by PCR amplification of G3BP1 and the MCP-Halo-linker backbone, followed by Gibson cloning \cite{gibson_enzymatic_2009}.
-The resulting construct contains a constitutive UbiC promoter, SV40 NLS (nuclear localization signal), stdMCP (MS2 coat protein), HaloTag, 33 nt linker sequence, G3BP1 with a stop codon, and a  Woodchuck Hepatitis Virus Posttranscriptional Regulatory Element (WPRE) improving expression in lentiviral transfection (Figure \ref{fig:plasmid_1}).
+The resulting construct contains a constitutive UbiC promoter, SV40 NLS (nuclear localization signal), stdMCP (MS2 coat protein), HaloTag, 33 nt linker sequence, G3BP1 with a stop codon, and a  Woodchuck Hepatitis Virus Posttranscriptional Regulatory Element (WPRE) improving expression in lentiviral transfection (Supplementary Figure \ref{fig:plasmid_1}).
 
 The smGCN4 reporter sequence containing GCN4 epitopes was synthesized into a pUC57-Kan expression vector.
 Assembly was performed by PCR amplification of smGCN4 and the \textit{Renilla}-MS2v5 backbone followed by Gibson cloning.
-The resulting plasmid contains a Tet-CMV (cytomegalovirus) promoter followed by smGCN4, \textit{Renilla} luciferase, FKBP domain with a stop codon, MS2v5 stem-loop cassette (24x), CTE (constitutive transport element, and SV40 polyA tail (Figure \ref{fig:plasmid_2}).
+The resulting plasmid contains a Tet-CMV (cytomegalovirus) promoter followed by smGCN4, \textit{Renilla} luciferase, FKBP domain with a stop codon, MS2v5 stem-loop cassette (24x), CTE (constitutive transport element, and SV40 polyA tail (Supplementary Figure \ref{fig:plasmid_2}).
 \\
 
 \textbf{Reporter cell line generation} \\
@@ -150,7 +150,7 @@ The next day, plasmid DNA was transfected once cells reached approximately 70\% 
 On the subsequent day, the expression of reporters was induced with 1 \textmu g/ml
     doxycycline (Sigma) for 3 hours unless otherwise specified.
 Stress was induced by adding 1 mM/ml sodium arsenite (Sigma) for the last 1 hour of induction.
-To measure recovery, cells were washed twice with PBS and replaced with fresh culturing medium.
+To measure recovery, cells were washed twice with phosphate-buffered saline (PBS) and replaced with fresh culturing medium.
 At the specified time points, cells were washed once with PBS and lysed with 250 \textmu l Passive Lysis Buffer per well.
 To ensure full cellular lysis, plates were gently shaken for 15 minutes at room temperature.
 30 \textmu l lysate was transferred to 96-well EIA/RIA Plate (Costar) in triplicates.
@@ -167,9 +167,9 @@ Probes targeting MS2 (v4) were made by enzymatic oligonucleotide labeling \cite{
 Cells were seeded on glass coverslips (Paul Marienfeld GmbH) placed in 12-well plates.
 The next day, cells were transfected as indicated.
 On the subsequent day, cells were treated as indicated, followed by two washes with PBS and fixation in 4\% paraformaldehyde (Electron Microscopy Sciences) diluted in PBS for 5 minutes.
-Cells were washed thrice with PBS and permeabilized with 0.5\% Triton X-100 diluted in PBS for 5 minutes (if immunofluorescence was performed) or overnight at 4ºC in 70\% Ethanol.
+Cells were washed thrice with PBS and permeabilized with 0.5\% Triton X-100 diluted in PBS for 5 minutes (if immunofluorescence was performed) or overnight at 4ºC in 70\% ethanol.
 Cells were washed two more times with PBS and prehybridized with wash buffer (2x SSC (Invitrogen), 10\% v/v formamide (Abcam)) twice for 5 minutes.
-Coverslips were then incubated between 4 and 16 hours with hybridization solution (2x SSC, 10\% v/v formamide, 10\% v/v dextran sulfate, 0.5\% v/v BSA, 200 nM FISH probes) at 37ºC in humidified chambers.
+Coverslips were then incubated between 4 and 16 hours with hybridization solution (2x SSC, 10\% v/v formamide, 10\% v/v dextran sulfate, 0.5\% v/v bovine serum albumin (BSA), 200 nM FISH probes) at 37ºC in humidified chambers.
 Cells were washed once more with wash buffer for 30 minutes and twice with PBS.
 Immunofluorescence staining was performed according to the "Immunofluorescence" section from BSA blocking to mounting.
 Samples were then mounted on ProLong Gold Antifade Mountant with DAPI.
@@ -181,7 +181,7 @@ Cells were seeded on glass coverslips (Paul Marienfeld GmbH) placed in 12-well p
 The next day, cells were transfected as indicated.
 On the subsequent day, cells were treated as indicated, followed by two washes with PBS and fixation in 4\% v/v paraformaldehyde (Electron Microscopy Sciences) diluted in PBS for 5 minutes.
 Cells were washed thrice with PBS and permeabilized with 0.5\% v/v Triton X-100 diluted in PBS for 5 minutes.
-Cells were washed two more times in PBS and incubated in 3\% w/v bovine serum albumin (BSA) (Sigma-Aldrich) diluted in PBS for 1 hour.
+Cells were washed two more times in PBS and incubated in 3\% w/v BSA (Sigma-Aldrich) diluted in PBS for 1 hour.
 Primary antibodies (diluted in 1\% w/v BSA in PBS) were incubated for 1 hour at room temperature or overnight at 4ºC.
 After washing three times with PBS, the cells were incubated with secondary antibodies (diluted in 1\% w/v BSA in PBS) for 1 hour at room temperature.
 Cells were washed twice with PBS and mounted on glass slides in ProLong Gold Antifade Mountant with DAPI.
@@ -225,7 +225,7 @@ Two mRNAs were considered as colocalized when their coordinates are less than 2 
 Images of the fluorescent beads were used to perform channel alignment.
 Using the pystackreg python package \cite{thevenaz_pyramid_1998} an affine transformation was registered.
 This model was subsequently re-applied to all images acquired with the secondary camera.
-Fiji \cite{schindelin_fiji_2012} was used to create representative movies and images via cropping, brightness adjustments, channel merging, and scale bar annotation.
+Fiji \cite{schindelin_fiji_2012} was used to create representative images via cropping, brightness adjustments, channel merging, and scale bar annotation.
 TrackMate \cite{tinevez_trackmate:_2017} was used to display tracked particles.
 \\
 
