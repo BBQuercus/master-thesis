@@ -78,8 +78,8 @@ def get_value(r, c, image, threshold=None):
 
 def main():
 
-    ROOT = ''
-    ROOT_SEG = ''  # Output from Fluffy
+    ROOT = 'PATH'
+    ROOT_SEG = 'PATH'  # Output from Fluffy
 
     files_nd = glob.glob(f'{ROOT}/*Ars*.nd')
     basenames = sorted([os.path.splitext(f)[0] for f in files_nd])

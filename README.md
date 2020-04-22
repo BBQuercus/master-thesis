@@ -31,7 +31,7 @@ This is the official GitHub repository accompanying my Master thesis. It contain
 ```
  @mastersthesis{EichenbergerThesis,
       author  = "Bastian Th. Eichenberger",
-      title   = "Single-molecule imaging of mRNA to study translational regulation",
+      title   = "Investigating the stress granule protein G3BP1 with single-molecule imaging of mRNA.",
       school  = "University of Basel",
       year    = 2020,
       address = "Basel, Switzerland",
